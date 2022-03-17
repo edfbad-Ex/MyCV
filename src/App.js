@@ -126,7 +126,7 @@ function App() {
 
           <div className="App-Child-Aptitudes">
 
-            <span>APTITUDES<div className="App-Child-Bar"></div></span>
+            <span>APTITUDES NIVEL JR<div className="App-Child-Bar"></div></span>
 
             <div className="App-Child-Aptitudes-List">
 
@@ -718,7 +718,7 @@ function App() {
 
           <span>Universidad Tecnológica de Puebla</span>
 
-          <span>Ténico Superior Universitario (trunco): TIC'S Área Desarrollo de Software Multiplataforma</span>
+          <span>Ténico Superior Universitario (en proceso): TIC'S Área Desarrollo de Software Multiplataforma</span>
 
         </div>
 
