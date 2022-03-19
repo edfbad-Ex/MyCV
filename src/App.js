@@ -574,6 +574,30 @@ function App() {
 
             <div className="App-Child-Aptitudes-List">
 
+              <div className="App-Child-Aptitudes-List-Child">
+                
+                <div className="App-Child-Aptitudes-List-Child-Circle"></div>
+
+                <span>Dominio de Dart.</span>
+
+              </div>
+
+            </div>
+
+            <div className="App-Child-Aptitudes-List">
+
+              <div className="App-Child-Aptitudes-List-Child">
+                
+                <div className="App-Child-Aptitudes-List-Child-Circle"></div>
+
+                <span>Dominio de Flutter.</span>
+
+              </div>
+
+            </div>
+
+            <div className="App-Child-Aptitudes-List">
+
                 <div className="App-Child-Aptitudes-List-Child">
                   
                   <div className="App-Child-Aptitudes-List-Child-Circle"></div>
@@ -733,6 +757,14 @@ function App() {
           <span>Área: DIT (Departamento de Innovación Tecnológica)</span>
 
           <span>Puesto: Encargado del Área de Probabilidad, Estadística y Programador</span>
+
+          <span>2/2022 - ../..</span>
+          
+          <span>Laboratorios Médicos Semín</span>
+
+          <span>Área: DIT (Departamento de Innovación Tecnológica)</span>
+
+          <span>Puesto: Encargado del Área de Biomédica</span>
 
           <div className="History-List-Task">
 
@@ -927,7 +959,17 @@ function App() {
                 También diseñe un algoritmo para el manejo y almacenamiento de los estudios en formato digital, el formato es .dcm (DICOM) que es un formato que se usa para imágenes médicas. Lo que hace el sistema es que genera un árbol de directorios en base a los metadatos de la imagen digital, ejemplo: se tienen diferentes estudios con el expediente 1, lo que hace mi algoritmo es que busca en la cabecera de datos de la imagen .dcm el número de expediente y en base a eso crea una carpeta que tendrá el nombre del dato obtenido, después checa cuantos estudios existen de ese expediente, genera una carpeta por cada tipo de estudio diferente, pero en el caso de que se encuentre más de 1 estudio con el mismo nombre se redirigirá a la carpeta que se creó la primera vez, lo que ayuda de este algoritmo es que se pueden meter N número de expedientes y N número de estudios, el algoritmo en semín esta programado para hacer el respaldo de 8 terabytes de información lo que es equivalente a 8 mil gigabytes de datos médicos.
               </p>
 
-            </div>                            
+            </div>      
+
+            <div className="History-List-Task-Child">
+
+              <div className="History-List-Task-Child-Circle"></div>
+
+              <p>
+              En esta segunda instancia en los Laboratorios Semín se me puso como proyecto desarrollar un dispositivo que convierta el envió de información del sensor FreeStyle Libre (FSL), este es un sistema de medición de glucosa indicado para medir los niveles de glucosa en el líquido intersticial, pero tiene una desventaja y esta radica en que la información que se recopila se manda vía NFC (Near Field Communication) y no todos los dispositivos Android/iOS cuentan con esta tecnología de comunicación inalámbrica, también no todos tienen el presupuesto para comprar el lector que se vende pero por separado, y por eso que se me solicito la conversión del envió de esta información, este cambio seria mandar la información vía Bluetooth en vez de mandarla por NFC, y esto con el fin de que todas las personas con el FSL puedan tener sus lecturas de glucosa sin necesidad de adquirir el lector o tener que comprar un celular que tenga NFC. Además se eso el envió de la información por medio de Bluetooth puede ampliar el radio de recepción de esa información, lo que quiero decir con esto es que antes cuando se “recibían”  los datos por NFC se tenía que acercar el lector de nuestro celular o dispositivo al menos a 10 cm del FSL, pero si esto información se “recibe” por Bluetooth esto cambiaria totalmente y no habría necesidad de acercar el celular cada que queramos saber el estado de una lectura de glucosa, ya que el Bluetooth manda esta información hasta 10 m, y agregado a eso puedes estar checando tus niveles de glucosa cada minuto, claro mientras tengas puesto el dispositivo que estoy desarrollando, pero bueno para ver estos datos se necesita de una interfaz que los interprete y nos lo muestre la información en gráficas que podamos entender, esta interfaz se está desarrollando en una App para Android con el Framework Flutter, esta App se encargara de monitorear la lectura de glucosa cada minuto por Bluetooth.
+              </p>
+
+            </div>                         
 
           </div>
           
